@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
           Accept: "application/json",
         },
         body: JSON.stringify({
-          likes: newLikes,
+          likes: newNumberOfLikes,
         }),
       })
         .then((response) => response.json())
